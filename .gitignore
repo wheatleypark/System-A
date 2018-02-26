@@ -1,0 +1,8 @@
+local.settings.json
+key.json
+config.json
+
+*.user
+bin/
+obj/
+PublishProfiles/
