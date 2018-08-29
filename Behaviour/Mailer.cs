@@ -28,7 +28,10 @@ namespace WpsBehaviour.Behaviour
       { "Misuse of Chromebook", 6 },
       { "Mobile phone use", 7 },
       { "Out of class", 8 },
-      { "Swearing", 9 }
+      { "Swearing", 9 },
+      { "Late to school", 10 },
+      { "Uniform", 11 },
+      { "Pride in work", 12 }
     };
 
     public Mailer(string senderEmail, IAsyncCollector<string> queue, CloudBlobContainer container, IList<EmailTemplate> templates, IDictionary<string, string> contacts, string spreadsheetId, string recipientOverride)
